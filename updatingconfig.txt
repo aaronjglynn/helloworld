@@ -1,0 +1,5 @@
+
+i ran the following
+git config --global user.name "aaronjglynn"
+git config --global user.email "aglynn@evolveacademy.io"
+
