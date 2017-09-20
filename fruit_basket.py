@@ -1,9 +1,10 @@
 def main():
     fruit_basket = ["apple","banana","pear","blueberry","melon"]
     guess = raw_input("What's your guess?\n")
-    if str(guess) in fruit_basket:
-        print("you're right!")
+    while str(guess) not in fruit_basket:
+        print("you're not correct!")
+        guess = raw_input("What's your next guess?\n")
     else:
-        print("sorry charlie")
+        print("great job charlie!")
 
 main()
